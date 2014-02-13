@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+	android:id="@+id/main" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:icon="@drawable/icon"
+	android:orientation="horizontal" xmlns:android="http://schemas.android.com/apk/res/android">
+	<RelativeLayout android:id="@+id/sword"
+		android:layout_width="fill_parent" android:layout_height="fill_parent" android:gravity="center">
+
+		<ImageView android:src="@drawable/bow" android:id="@+id/bow"
+			android:layout_width="fill_parent" android:layout_marginBottom="50dip"
+			android:layout_height="match_parent" />
+
+		<ImageView android:src="@drawable/bowarrow"
+			android:visibility="gone" android:id="@+id/bowarrow"
+			android:layout_width="fill_parent" android:layout_marginBottom="50dip"
+			android:layout_height="match_parent" />
+
+		<Button android:layout_width="wrap_content"
+			android:layout_alignParentBottom="true" android:background="@drawable/normal"
+			android:layout_height="wrap_content" android:id="@+id/normal"
+			android:height="50dip" android:layout_marginLeft="25dip" android:layout_marginRight="12.5dip"/>
+
+		<Button android:layout_width="wrap_content" android:layout_alignParentBottom="true"
+			android:layout_toRightOf="@+id/normal" android:background="@drawable/fire"
+			android:layout_height="wrap_content" android:id="@+id/fire"
+			android:height="50dip" android:layout_marginLeft="12.5dip" android:layout_marginRight="12.5dip"/>
+
+		<Button android:layout_width="wrap_content" android:layout_alignParentBottom="true"
+			android:layout_toRightOf="@+id/fire" android:background="@drawable/ice"
+			android:layout_height="wrap_content" android:id="@+id/ice"
+			android:height="50dip" android:layout_marginLeft="12.5dip" android:layout_marginRight="12.5dip"/>
+
+		<Button android:layout_width="wrap_content" android:layout_alignParentBottom="true"
+			android:layout_toRightOf="@+id/ice" android:background="@drawable/light"
+			android:layout_height="wrap_content" android:id="@+id/light"
+			android:height="50dip" android:layout_marginLeft="12.5dip" android:layout_marginRight="12.5dip"/>
+
+		<com.google.ads.AdView android:layout_height="wrap_content"
+			android:id="@+id/adds" ads:adSize="BANNER" ads:adUnitId="a14de02fc11e306"
+			android:layout_gravity="top" android:layout_width="wrap_content" />
+
+	</RelativeLayout>
+</LinearLayout>

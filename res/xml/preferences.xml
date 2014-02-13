@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads">
+
+	<CheckBoxPreference android:summaryOn="Swinging works left-handed"
+		android:summaryOff="Swinging works right-handed" android:selectable="true"
+		android:key="lefty" android:title="Lefty Mode" />
+	<CheckBoxPreference android:summaryOn="Link only makes vocal sounds when swinging"
+		android:summaryOff="Swinging causes a random hit sound" android:key="voice"
+		android:title="Voice" android:selectable="true"></CheckBoxPreference>
+	<CheckBoxPreference android:title="Vibrate"
+		android:key="vibe" android:selectable="true" android:summaryOff="The phone will never vibrate"
+		android:summaryOn="The phone vibrates for every sound"
+		android:enabled="true" android:defaultValue="true"/>
+	<EditTextPreference android:title="Sensitivity"
+		android:selectable="true" android:enabled="true" android:key="sensText"
+		android:defaultValue="500" android:summary="Choose between 0 and 5000 (higher is harder)"
+		android:id="@+id/sensText" />
+	<Preference android:selectable="false" android:enabled="false"
+		android:key="info"></Preference>
+	<Preference android:enabled="false" android:key="lv"
+		android:selectable="false"></Preference>
+	<Preference android:enabled="false" android:key="act"
+		android:selectable="false"></Preference>
+	<Preference android:selectable="false" android:enabled="false"
+		android:key="update"></Preference>
+	<Preference android:enabled="false" android:selectable="false"
+		android:key="BG"></Preference>
+
+
+
+
+
+
+</PreferenceScreen>

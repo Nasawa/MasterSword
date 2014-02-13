@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:titleCondensed="BG" android:id="@+id/background" android:title="Background">
+        <menu>
+            <group android:id="@+id/bggroup" android:menuCategory="container" android:checkableBehavior="single">
+                <item android:title="Sundown" android:id="@+id/sundown"/>
+                <item android:title="Master Sword" android:id="@+id/MSBG"/>
+                <item android:title="Green Link" android:id="@+id/GL"/>
+                <item android:title="Red Link" android:id="@+id/RL"/>
+                <item android:title="Purple Link" android:id="@+id/PL"/>
+                <item android:title="Blue Link" android:id="@+id/BL"/>
+                <item android:title="Moon" android:id="@+id/moon"/>
+                <item android:title="Black" android:id="@+id/black"/>
+            </group>
+        </menu>
+    </item>
+    <item android:title="Settings" android:id="@+id/settings" />
+    <item android:title="Weapon" android:id="@+id/weapon">
+        <menu>
+            <group android:id="@+id/weapongroup" android:menuCategory="container" android:checkableBehavior="single"><item android:titleCondensed="Master" android:title="Master Sword" android:id="@+id/master"></item><item android:titleCondensed="Kokiri" android:title="Kokiri Sword" android:id="@+id/kokiri"></item><item android:titleCondensed="Biggoron" android:title="Biggoron Sword" android:id="@+id/biggoron"></item><item android:title="Deku Stick" android:id="@+id/dekustick"></item>
+            <item android:title="Deku Nut" android:id="@+id/dekunut"></item>
+            <item android:title="Bomb" android:id="@+id/bomb"></item>
+            <item android:title="Slingshot" android:id="@+id/slingshot"></item>
+            <item android:title="Boomerang" android:id="@+id/boomerang"></item>
+            <item android:titleCondensed="Megaton" android:title="Megaton Hammer" android:id="@+id/megaton"></item>
+            <item android:title="Hookshot" android:id="@+id/hookshot"></item>
+            
+            
+            
+            <item android:title="Bow" android:id="@+id/bow"></item>
+</group>
+            
+        </menu>
+    </item>
+</menu>

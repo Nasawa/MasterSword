@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+	android:id="@+id/main" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:icon="@drawable/icon"
+	android:orientation="horizontal" xmlns:android="http://schemas.android.com/apk/res/android">
+	<RelativeLayout android:id="@+id/sword"
+		android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<ImageView android:src="@drawable/ootmsword"
+			android:layout_weight="1" android:id="@+id/mSword"
+			android:layout_gravity="left" android:layout_height="wrap_content"
+			android:layout_width="fill_parent" android:layout_marginTop="50dip"></ImageView>
+		<com.google.ads.AdView android:layout_height="wrap_content"
+			android:id="@+id/ad" ads:adSize="BANNER" ads:adUnitId="a14de02fc11e306"
+			android:layout_gravity="top" android:layout_width="wrap_content" />
+	</RelativeLayout>
+</LinearLayout>
